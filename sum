@@ -1,0 +1,7 @@
+grab cla
+sum=0 
+for arg in cla $1 $2 $3
+do
+    sum=$((arg+sum))
+done
+echo $sum
