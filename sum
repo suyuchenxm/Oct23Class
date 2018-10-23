@@ -1,6 +1,8 @@
-grab cla
+#!/bin/bash
+#author : suri
+#this is
 sum=0 
-for arg in cla $1 $2 $3
+for arg in $@
 do
     sum=$((arg+sum))
 done
